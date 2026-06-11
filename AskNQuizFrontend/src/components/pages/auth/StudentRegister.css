@@ -1,0 +1,110 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.student-register-page{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  background:linear-gradient(
+    135deg,
+    #050816,
+    #0f172a,
+    #111827
+  );
+}
+
+.student-register-card{
+  width:500px;
+
+  padding:40px;
+
+  background:rgba(255,255,255,0.05);
+
+  backdrop-filter:blur(15px);
+
+  border-radius:20px;
+
+  border:1px solid rgba(0,229,255,0.3);
+
+  box-shadow:
+    0 0 20px #00e5ff,
+    0 0 40px rgba(0,229,255,0.3);
+
+  text-align:center;
+ 
+}
+
+.student-register-card h2{
+  color:white;
+  font-size:34px;
+  margin-bottom:10px;
+}
+
+.register-subtitle{
+  color:#cbd5e1;
+  margin-bottom:25px;
+}
+
+.student-register-card form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.student-register-card input{
+  width:100%;
+  padding:14px;
+
+  border:none;
+  outline:none;
+
+  border-radius:12px;
+
+  background:rgba(255,255,255,0.08);
+
+  color:white;
+  font-size:15px;
+}
+
+.student-register-card input::placeholder{
+  color:#cbd5e1;
+}
+
+.student-register-card input:focus{
+  box-shadow:0 0 10px #00e5ff;
+}
+
+.student-register-card button{
+  width:100%;
+  padding:14px;
+
+  border:none;
+  border-radius:30px;
+
+  cursor:pointer;
+
+  color:white;
+  font-size:16px;
+  font-weight:600;
+
+  background:linear-gradient(
+    90deg,
+    #00c6ff,
+    #0072ff
+  );
+
+  transition:all 0.3s ease;
+}
+
+.student-register-card button:hover{
+  transform:translateY(-4px);
+
+  box-shadow:
+    0 0 15px #00e5ff,
+    0 0 30px #00e5ff;
+}

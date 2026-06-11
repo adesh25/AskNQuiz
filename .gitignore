@@ -1,0 +1,10 @@
+.metadata/
+**/node_modules/
+**/target/
+**/bin/
+**/obj/
+**/.vs/
+**/.settings/
+**/.classpath
+**/.project
+*.log

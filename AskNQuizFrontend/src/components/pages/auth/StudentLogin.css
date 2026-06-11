@@ -1,0 +1,116 @@
+.student-login-page {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    #050816,
+    #0f172a,
+    #111827
+  );
+}
+
+.student-login-card {
+  width: 480px;
+   padding: 50px;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  backdrop-filter: blur(15px);
+
+  border-radius: 20px;
+
+  border: 1px solid rgba(0, 229, 255, 0.3);
+
+  box-shadow:
+    0 0 20px #00e5ff,
+    0 0 40px rgba(0, 229, 255, 0.3);
+
+  text-align: center;
+}
+
+.student-login-card h2 {
+  color: white;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.login-subtitle {
+  color: #cbd5e1;
+  margin-bottom: 25px;
+}
+
+.student-login-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.student-login-card label {
+  color: #cbd5e1;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.student-login-card input {
+  width: 100%;
+
+  padding: 14px;
+
+  margin-bottom: 15px;
+
+  border: none;
+  outline: none;
+
+  border-radius: 12px;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  color: white;
+
+  font-size: 15px;
+}
+
+.student-login-card input::placeholder {
+  color: #cbd5e1;
+}
+
+.student-login-card button {
+  width: 100%;
+
+  padding: 14px;
+
+  border: none;
+  border-radius: 30px;
+
+  cursor: pointer;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  color: white;
+
+  background: linear-gradient(
+    90deg,
+    #00c6ff,
+    #0072ff
+  );
+
+  transition: all 0.3s ease;
+}
+
+.student-login-card button:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 0 15px #00e5ff,
+    0 0 30px #00e5ff;
+}
+.student-login-card button:hover{
+   transform: translateY(-4px);
+   box-shadow:
+      0 0 15px #00e5ff,
+      0 0 30px #00e5ff;
+}
