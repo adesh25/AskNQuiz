@@ -73,4 +73,5 @@ AskNQuiz is a full-stack Online Quiz and Doubt Solving Platform developed using 
 
 ## Developed By
 Vaishnavi Pokale (Frontend Development, Integration, Testing)
+
 Adesh Dhumal (Backend Development, Spring Boot Services, APIs, Database Integration)
